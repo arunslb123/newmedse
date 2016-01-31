@@ -1,0 +1,98 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:200,300');
+
+body {
+	background: url('img/green.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	color:#fff;
+  	background-color:#333;
+font-family: 'Raleway', sans-serif;
+    overflow-y: scroll;
+overflow-x: hidden;
+}
+
+a:link, a:visited {
+	color:#eee;
+}
+
+.block {
+	background-color:rgba(0,0,0,0.2);
+    height:370px;
+  	padding-left:12px;
+  	padding-right:12px;
+}
+
+.block-sm {
+    height:100px;
+}
+
+.btn-flat {
+  	font-family: 'Open Sans',Arial,Helvetica,Sans-Serif;
+	border-radius:0px;
+  	border-width:0;
+  	background-image:none;
+  	padding:16px;
+  	margin:0 auto;
+  	margin-top:15px;
+  	width:70%;
+    font-size:20pt;
+}
+
+/* mini carousel */
+.carousel-inner img {
+	width:100%;
+  	height:100%;
+}
+
+#myCarousel {
+	font-size:90%;
+}
+
+.carousel-controls-mini {
+	margin-left:42%;
+}
+
+.carousel-controls-mini > a {
+	border:1px solid #eee;
+  	margin:1px;
+  	width:20px;
+    display:block;
+  	float:left;
+    text-align:center;
+}
+
+#carousel-bounding-box {
+  margin:0 auto;
+  width:300px;
+}
+
+
+
+
+
+
+
+
+input[type="checkbox"]{
+cursor: pointer;
+-webkit-appearance: none;
+appearance: none;
+background: #EC2537;
+border-radius: 1px;
+box-sizing: border-box;
+position: relative;
+box-sizing: content-box ;
+width: 30px;
+height: 30px;
+border-width: 0;
+transition: all .3s linear;
+}
+input[type="checkbox"]:checked{
+  background-color: #2ECC71;
+}
+input[type="checkbox"]:focus{
+  outline: 0 none;
+  box-shadow: none;
+}
